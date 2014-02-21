@@ -1,2 +1,5 @@
 *.tlog
 HelloWorldGmock/gmockHelloWorld.sdf
+tests/Debug/*
+HelloWorldGmock/code/Debug/vc120.idb
+HelloWorldGmock/code/Debug/*
