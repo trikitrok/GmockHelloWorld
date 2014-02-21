@@ -7,8 +7,7 @@
 
 using namespace testing;
 
-TEST(HelloWorldTest, getMessage)
-{
+TEST(HelloWorldTest, getMessage) {
   MockMessenger messenger;
   std::string msg = "Hello World";
   EXPECT_CALL(messenger, getMessage()).WillRepeatedly(Return(ByRef(msg)));

@@ -8,13 +8,13 @@ class Messenger;
 
 class HelloWorld
 {
-  public:
-    HelloWorld(Messenger* messenger);
-	  virtual ~HelloWorld();
-	  std::string getMessage() const;
+public:
+  HelloWorld(Messenger* messenger);
+  virtual ~HelloWorld();
+  std::string getMessage() const;
 
-  private:
-    Messenger* messenger;
+private:
+  Messenger* messenger;
 };
 
 #endif /* HELLOWORLD_H_ */

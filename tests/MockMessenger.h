@@ -8,9 +8,8 @@
 
 class MockMessenger : public Messenger
 {
-  public:
-    MOCK_METHOD0(getMessage, std::string());
+public:
+  MOCK_METHOD0(getMessage, std::string());
 };
 
 #endif /* MOCKMESSENGER_H_ */
-

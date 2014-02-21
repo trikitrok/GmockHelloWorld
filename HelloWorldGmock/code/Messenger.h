@@ -6,10 +6,10 @@
 
 class Messenger
 {
-  public:
-    Messenger(){}
-    virtual ~Messenger() {}
-    virtual std::string getMessage() = 0;
+public:
+  Messenger() {}
+  virtual ~Messenger() {}
+  virtual std::string getMessage() = 0;
 };
 
 #endif /* MESSENGER_H_ */
