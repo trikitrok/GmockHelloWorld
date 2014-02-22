@@ -1,9 +1,7 @@
-#include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include "MockMessenger.h"
 #include "HelloWorld.h"
 #include <string>
-#include <memory>
 
 using namespace testing;
 
